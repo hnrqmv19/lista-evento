@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #F1F3F6;
+    font-family: 'Poppins', sans-serif;
+    color: #22303F;
+}
+
+main {
+    max-width: 560px;
+    margin: 60px auto;
+    padding: 40px 36px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(34, 48, 63, 0.08);
+}
+
+h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1B2733;
+}
+
+.Introducao {
+    margin: 0 0 28px;
+    color: #6B7A8C;
+    font-size: 14px;
+}
+
+.Campo {
+    display: flex;
+    gap: 10px;
+}
+
+.Campo input {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1.5px solid #DCE2E8;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #22303F;
+    transition: border-color 0.15s ease;
+}
+
+.Campo input:focus {
+    outline: none;
+    border-color: #3A7BFF;
+}
+
+.Campo button,
+.botaoExcluir {
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.Campo button {
+    padding: 12px 20px;
+    background: #3A7BFF;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.Campo button:hover {
+    background: #2B63D9;
+}
+
+.msgerro {
+    margin: 10px 0 0;
+    color: #E14848;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.resultado {
+    margin-top: 32px;
+}
+
+.resultado h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1B2733;
+    margin: 0 0 14px;
+}
+
+.vazio {
+    color: #9AA6B2;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    border: 1.5px dashed #DCE2E8;
+    border-radius: 10px;
+}
+
+.listaParticipantes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listaParticipantes li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    background: #F7F9FB;
+    border: 1px solid #EBEFF3;
+    border-radius: 10px;
+}
+
+.numero {
+    font-size: 13px;
+    font-weight: 700;
+    color: #3A7BFF;
+    min-width: 24px;
+}
+
+.nomeParticipante {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.botaoExcluir {
+    padding: 8px 14px;
+    background: #FFFFFF;
+    border: 1.5px solid #F1B8B8;
+    color: #E14848;
+    font-size: 12px;
+}
+
+.botaoExcluir:hover {
+    background: #FDECEC;
+}
